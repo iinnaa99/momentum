@@ -1,0 +1,138 @@
+.hidden {
+  display: none;
+}
+
+input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid white;
+  background-color: transparent;
+  text-shadow: 0px 0px 10px black;
+  color: white;
+  width: 60%;
+  font-size: 30px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-size: 60px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+#todo-form div {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#bgImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#clock {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-size: 80px;
+  opacity: 0.7;
+}
+
+#login-form {
+  display: inline-flexbox;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#greeting {
+  display: inline-flexbox;
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+#todo-form {
+  text-align: center;
+}
+
+#quote {
+  text-shadow: 0px 0px 10px black;
+  position: fixed;
+  bottom: 0;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#weather {
+  text-align: center;
+  font-family: monospace;
+}
+
+#todo-list {
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#todo-list span {
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+#todo-list button {
+  border: none;
+  background-color: transparent;
+}
+
+#loginBtn {
+  width: 50px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#inputForm {
+  width: 150px;
+  height: 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+#todoInput {
+  width: 200px;
+  height: 20px;
+  border-color: white;
+  color: antiquewhite;
+  border-radius: 20px;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#todoBtn {
+  border: none;
+  background-color: rgba(255, 0, 0, 0);
+}
