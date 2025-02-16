@@ -4,27 +4,44 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/background.css">
+    <link rel="stylesheet" href="css/weather.css">
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="stylesheet" href="css/clock.css">
+    <link rel="stylesheet" href="css/greeting.css">
+    <link rel="stylesheet" href="css/quotes.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Momentum App</title>
 </head>
 
 <body>
-    <h2 id="clock">00:00:00</h2>
-    <form class="hidden" id="login-form">
-        <div id="text"> Hello, What's your name? </div>
+    <div id="weather">
+        <div id="weather-text">
+            <span id="temp"></span>
+            <span id="city"></span>
+        </div>
+    </div>
+    <div id="clock-container">
+        <h4 id="date">0000.00.00</h4>
+        <h2 id="clock">00:00:00</h2>
+    </div>
+    <form id="login-form" class="hidden">
+        <div id="login-info"> Hello, What's your name? </div>
         <input required maxlength="15" type="text" />
     </form>
-    <h1 class="hidden" id="greeting"></h1>
+    <h1 id="greeting" class="hidden"></h1>
     <form class="hidden" id="todo-form">
-        <div id="text"> what is your main focus for today?</div>
+        <div id="todo-info"> what is your main focus for today?</div>
         <input required type="text" />
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
-        <span></span>
-        <span></span>
-    </div>
-    <div id="weather">
         <span></span>
         <span></span>
     </div>

@@ -1,0 +1,15 @@
+#quote {
+  text-shadow: 0px 0px 10px black;
+  position: fixed;
+  bottom: 0;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-style: italic;
+  font-size: 14px;
+}
