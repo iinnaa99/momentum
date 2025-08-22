@@ -1,6 +1,6 @@
 # MOMENTUM
 
-[노마드 코더] To Do List
+[노마드 코더](https://nomadcoders.co/javascript-for-beginners) 자바스크립트로 웹 서비스 만들기
 
 ## 👩🏻‍💻 프로젝트 소개
 
